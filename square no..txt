@@ -1,0 +1,13 @@
+CODE:
+def square_num(n):
+    return n * n
+num = [4,5,2,9]
+print("Numbers :",num)
+result = map(square_num,num)
+print("Square of numbers :")
+print(list(result))
+
+OUTPUT:
+Numbers : [4, 5, 2, 9]
+Square of numbers :
+[16, 25, 4, 81]
