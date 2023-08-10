@@ -1,0 +1,8 @@
+CODE:
+r = lambda a: a+25
+print(r(10))
+
+
+OUTPUT:
+10
+35
